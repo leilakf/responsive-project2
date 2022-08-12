@@ -1,0 +1,240 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "432dbf40f2e51008b92829d2c46dfcb8",
+      "css": "cloud",
+      "code": 59392,
+      "src": "iconic"
+    },
+    {
+      "uid": "9f41cbda67dafb38926a4201a01691c9",
+      "css": "sun",
+      "code": 59393,
+      "src": "iconic"
+    },
+    {
+      "uid": "9cd3e294ca3ad3dda66bc5a804021c46",
+      "css": "cloud-sun",
+      "code": 59394,
+      "src": "meteocons"
+    },
+    {
+      "uid": "95fb2e5fdd1ea7e4a420b6ed330e6b08",
+      "css": "sun-1",
+      "code": 59395,
+      "src": "meteocons"
+    },
+    {
+      "uid": "8f1bbb4667a8372dc4bb7de767f22f11",
+      "css": "clouds-inv",
+      "code": 59396,
+      "src": "meteocons"
+    },
+    {
+      "uid": "5fad7d41511701337ddd5ad9896edc4b",
+      "css": "windy",
+      "code": 59397,
+      "src": "meteocons"
+    },
+    {
+      "uid": "d02a803276d9e1f42b7393964aa22ce9",
+      "css": "heart",
+      "code": 59398,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "cdb000f745167bbada14e2c1d8404d98",
+      "css": "paper-plane",
+      "code": 61469,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "6fbd93c0d220507921015a15575009e5",
+      "css": "paper-plane-1",
+      "code": 59399,
+      "src": "linecons"
+    },
+    {
+      "uid": "48b87105bd38c20315f1b705b8c7b38c",
+      "css": "list",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "36cd8afd434ce27844b51a9a783037e6",
+      "css": "looped-square-outline",
+      "code": 59401,
+      "src": "typicons"
+    },
+    {
+      "uid": "cf1d7ee3d5c367a5c5a3cc9e77acec68",
+      "css": "list-1",
+      "code": 59402,
+      "src": "websymbols"
+    },
+    {
+      "uid": "beb54ffa9c4b49c62af6fa72354d1740",
+      "css": "indent-left",
+      "code": 59403,
+      "src": "websymbols"
+    },
+    {
+      "uid": "9e22a8a67fe3b88cdd5e4253c85debdb",
+      "css": "th",
+      "code": 59404,
+      "src": "websymbols"
+    },
+    {
+      "uid": "21115bb09fa242341cb91ed34710aa13",
+      "css": "attach",
+      "code": 59405,
+      "src": "websymbols"
+    },
+    {
+      "uid": "cd9ad52ef0740bb86ff11af9646d4859",
+      "css": "list-2",
+      "code": 59406,
+      "src": "elusive"
+    },
+    {
+      "uid": "55f7ab3f2bedec72e8400fa2798a7a1a",
+      "css": "align-justify",
+      "code": 59407,
+      "src": "elusive"
+    },
+    {
+      "uid": "50e664a6f12199784c02600b2ccfd60a",
+      "css": "th-list",
+      "code": 59408,
+      "src": "elusive"
+    },
+    {
+      "uid": "93faa7cec68bf69ec455bbab61e58e48",
+      "css": "th-1",
+      "code": 59409,
+      "src": "elusive"
+    },
+    {
+      "uid": "76f961b11f65300838a5a78856aca30f",
+      "css": "th-large",
+      "code": 59410,
+      "src": "elusive"
+    },
+    {
+      "uid": "8e6b311d40f1002fd6de7d1bdfdc7f17",
+      "css": "folder-open",
+      "code": 61544,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c619e17229d6c874dfc70be359b6b3f1",
+      "css": "folder",
+      "code": 61543,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "8f28e6daf83e5c4f1fec8d170a7e21e7",
+      "css": "folder-open-empty",
+      "code": 62658,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "f0d3ad15d020cf187d42dd3b2295b65c",
+      "css": "emo-angry",
+      "code": 59411,
+      "src": "fontelico"
+    },
+    {
+      "uid": "4bb2045a2aca451705fe8a23c4a576ab",
+      "css": "emo-wink2",
+      "code": 59412,
+      "src": "fontelico"
+    },
+    {
+      "uid": "1ba44825e5f10920b4e3f1d0c73f79a2",
+      "css": "emo-wink",
+      "code": 59413,
+      "src": "fontelico"
+    },
+    {
+      "uid": "53ed8570225581269cd7eff5795e8bea",
+      "css": "emo-unhappy",
+      "code": 59414,
+      "src": "fontelico"
+    },
+    {
+      "uid": "f9c8ea86275ca16128235c6452b67b8e",
+      "css": "user-secret",
+      "code": 61979,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "fbc6facd27f744438410cbcad545bf52",
+      "css": "tripadvisor",
+      "code": 62050,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "80451d627470ea7f977a263fdb771d7b",
+      "css": "palette",
+      "code": 59415,
+      "src": "entypo"
+    },
+    {
+      "uid": "f1ecd8633b0ec659877c02cd796df1fd",
+      "css": "chart-bar",
+      "code": 59416,
+      "src": "iconic"
+    },
+    {
+      "uid": "2c304ff49075ec9647f498504651abf5",
+      "css": "cloud-sun-inv",
+      "code": 59417,
+      "src": "meteocons"
+    },
+    {
+      "uid": "1e123339045e48ddd01031936b9fc2d9",
+      "css": "soundcloud",
+      "code": 59418,
+      "src": "zocial"
+    },
+    {
+      "uid": "6cc1c059e221d7a0bf109870cc48f1a5",
+      "css": "plancast",
+      "code": 59419,
+      "src": "zocial"
+    },
+    {
+      "uid": "466d1430ec2e11e1aff10800200c9a66",
+      "css": "jabber",
+      "code": 62231,
+      "src": "brandico"
+    },
+    {
+      "uid": "b08f8c33777cd6b512d9576fc6e7f405",
+      "css": "food",
+      "code": 59420,
+      "src": "linecons"
+    },
+    {
+      "uid": "ae831b40d407b36bc7114d61e2470e8d",
+      "css": "bad-pig-emoji-svgrepo-com",
+      "code": 59398,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "M137.7 76.5C95.7 104 81.3 164.9 105.5 212.6S212.7 334 254.7 306.5C296.7 279 281.8 160.6 257.6 113 233.3 65.4 179.6 49 137.7 76.5ZM629.9 0.1C578.1 2.9 533.8 47 530.9 98.8 528 150.5 564.1 252.7 615.8 250 667.6 247.3 715.4 140.7 718.3 88.9 721.2 37.1 681.6-2.6 629.9 0.1ZM500 719.2C361.9 719.2 250 698.6 250 750.4S361.9 844.2 500 844.2C638.1 844.2 750 802.2 750 750.4S638.1 719.2 500 719.2ZM187.5 406.7C135.7 406.7 93.8 448.6 93.8 500.4S135.7 594.2 187.5 594.2 281.3 552.2 281.3 500.4 239.3 406.7 187.5 406.7ZM812.5 406.7C760.7 406.7 718.8 448.6 718.8 500.4S760.7 594.2 812.5 594.2 906.3 552.2 906.3 500.4 864.3 406.7 812.5 406.7ZM218.8 469.2C201.5 469.2 187.5 483.2 187.5 500.4S201.5 531.7 218.8 531.7 250 517.7 250 500.4 236 469.2 218.8 469.2ZM843.8 469.2C826.5 469.2 812.5 483.2 812.5 500.4S826.5 531.7 843.8 531.7 875 517.7 875 500.4 861 469.2 843.8 469.2ZM406.3 531.7C389 531.7 375 559.6 375 594.2S389 656.7 406.3 656.7 437.5 628.7 437.5 594.2 423.5 531.7 406.3 531.7ZM593.8 531.7C576.5 531.7 562.5 559.6 562.5 594.2S576.5 656.7 593.8 656.7 625 628.7 625 594.2 611 531.7 593.8 531.7ZM250 281.7H125C107.8 281.7 93.8 295.7 93.8 312.9S107.8 344.2 125 344.2H250C267.3 344.2 281.3 330.2 281.3 312.9S267.3 281.7 250 281.7ZM875 281.7H750C732.8 281.7 718.8 295.7 718.8 312.9S732.8 344.2 750 344.2H875C892.3 344.2 906.3 330.2 906.3 312.9S892.3 281.7 875 281.7Z",
+        "width": 1000
+      },
+      "search": [
+        "bad-pig-emoji-svgrepo-com"
+      ]
+    }
+  ]
+}

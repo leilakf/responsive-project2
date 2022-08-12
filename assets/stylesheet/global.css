@@ -1,1 +1,21 @@
-/*# sourceMappingURL=global.css.map */
+.Topheader {
+  height: 80px;
+}
+.Topheader > .row {
+  height: 100%;
+}
+.Topheader > .row > * {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Topheader > .row > nav > span > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Topheader .menuHam {
+  cursor: pointer;
+}/*# sourceMappingURL=global.css.map */
