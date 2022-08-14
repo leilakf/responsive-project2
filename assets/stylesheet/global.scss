@@ -1,4 +1,11 @@
+
 .Topheader {
+    // padding: 0px;
+//    margin: 0;
+   width: 100%;
+    // position: fixed;
+    top: 0;
+    z-index: 999;
     height: 80px;
 
     >.row {
@@ -6,12 +13,11 @@
 
         >* {
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+
         }
 
         >nav {
+
             >span {
                 >i {
                     // font-size: 40px;
@@ -26,7 +32,450 @@
             }
         }
     }
-.menuHam{
-    cursor: pointer;
+
+    .menuHam {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .DeskMenu {
+        >ul {
+            >li {
+                a {
+                    // border: 1px solid red;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    letter-spacing: 4px;
+
+                    &:hover {
+                        color: red;
+                    }
+
+                }
+            }
+        }
+    }
 }
+
+// *************************************end header
+.slider {
+    width: 100%;
+    height: 100vh;
+
+    // background-color: chocolate;
+    .carousel-item {
+        position: relative;
+    }
+
+    .caption {
+        >h5 {
+            font-size: 5rem;
+            top: 20%;
+        }
+
+        >p {
+            font-size: 2rem;
+            top: 50%;
+        }
+
+        * {
+            position: absolute;
+            left: 10%;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 10px rgb(0, 0, 0)w;
+        }
+    }
+
+}
+
+// *****************************************end slider
+#slideCar {
+    position: relative;
+}
+
+.slideCar {
+    width: 120%;
+    // height: 80vh;
+    margin-left: -10%;
+
+    >.row {
+        >figure {
+            // background-color: cadetblue;
+
+
+            >img {
+                // background-color: blueviolet;
+                margin-top: 80px;
+            }
+        }
+    }
+
+    &::after {
+        left: 0;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.885), rgba(255, 255, 255, 0));
+    }
+
+    &::before {
+        right: 0;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.885), rgba(255, 255, 255, 0));
+        z-index: 99;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        // background-color: brown;
+    }
+
+    figure {
+        position: relative;
+        font-size: 20px;
+        text-transform: uppercase;
+
+        &:nth-of-type(1) {
+            &::before {
+                content: "";
+                display: block;
+                width: 65%;
+                height: 100%;
+                // background-color: chartreuse;
+                background-image: url(../img/111\ \(6\).jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+                position: absolute;
+                top: 0;
+                left: 20%;
+                z-index: -1;
+                transition: 0.5s;
+
+            }
+
+            &:hover::before {
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+
+            }
+        }
+
+        &:nth-of-type(2) {
+            &::before {
+                content: "";
+                display: block;
+                width: 65%;
+                height: 100%;
+                // background-color: chartreuse;
+                background-image: url(../img/111\ \(6\).jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+                position: absolute;
+                top: 0;
+                left: 20%;
+                z-index: -1;
+                transition: 0.5s;
+
+            }
+
+
+
+            &:hover::before {
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+
+            }
+        }
+
+        &:nth-of-type(3) {
+            &::before {
+                content: "";
+                display: block;
+                width: 65%;
+                height: 100%;
+                // background-color: chartreuse;
+                background-image: url(../img/111\ \(11\).jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+                position: absolute;
+                top: 0;
+                left: 20%;
+                z-index: -1;
+                transition: 0.5s;
+
+            }
+
+
+
+            &:hover::before {
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+
+            }
+        }
+
+        &:nth-of-type(4) {
+            &::before {
+                content: "";
+                display: block;
+                width: 65%;
+                height: 100%;
+                // background-color: chartreuse;
+                background-image: url(../img/111\ \(8\).jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+                position: absolute;
+                top: 0;
+                left: 20%;
+                z-index: -1;
+                transition: 0.5s;
+
+            }
+
+            >* {
+                // position: relative;
+                // z-index: 9;
+            }
+
+            &:hover::before {
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+
+            }
+        }
+
+        &:nth-of-type(5) {
+            &::before {
+                content: "";
+                display: block;
+                width: 65%;
+                height: 100%;
+                // background-color: chartreuse;
+                background-image: url(../img/111\ \(9\).jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+                position: absolute;
+                top: 0;
+                left: 20%;
+                z-index: -1;
+                transition: 0.5s;
+
+            }
+
+            &:hover::before {
+                clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+
+            }
+
+        }
+
+        &:hover>* {
+            color: white;
+        }
+
+        >h3 {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+
+    }
+}
+
+// *************************** end slider car *****************************
+.txt {
+    a {
+        // text-decoration: underline;
+        border-bottom: 2px solid black;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+// ****************************end text*********************************
+.ClickShop {
+    width: 100%;
+    // height: 100vh;
+    display: flex;
+    align-items: center;
+
+    >div:nth-of-type(1) {
+        >figure {
+            overflow-x: hidden;
+
+            >img {
+
+                object-fit: cover;
+                transition: 5s;
+
+                &:hover {
+                    transform: scale(1.08);
+
+                }
+            }
+
+        }
+
+    }
+
+    >div:nth-of-type(2) {
+
+        div {
+
+            //   background-color: coral;
+            padding-left: 10px;
+
+            >h6 {
+                color: rgb(125, 121, 121);
+            }
+
+            >h2 {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            >p {
+                font-size: 20px;
+            }
+
+            >a {
+
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border: 2px solid black;
+
+
+                &:hover {
+                    background-color: black;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+
+    }
+
+}
+
+// <!-- ******************************************end ClickShop************/ -->
+.pic1 {
+    width: 100%;
+padding: 0;
+margin: 0;
+    // height: 100vh;
+    background-color: black;
+
+    >div:nth-of-type(1) {
+        display: flex;
+        align-items: center;
+         margin: 0;
+         padding: 0;
+
+
+        >div {
+
+            // background-color: blueviolet;
+            >h2 {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 50px;
+            }
+
+            >a {
+                color: red;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-bottom: 2px solid rgb(255, 0, 0);
+
+                &:hover {
+                    background-color: black;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+
+    }
+
+    >div:nth-of-type(2) {
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+
+        >figure {
+            margin: 0;
+
+            >img {
+
+                object-fit: cover;
+
+
+
+            }
+
+        }
+    }
+}
+// <!-- ******************************************end pic1************/ -->
+.pic2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    // height: 100vh;
+    background-color: black;
+
+    >div:nth-of-type(2) {
+        // background-color: rgb(255, 204, 0);
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        >div {
+margin: 0%;
+            // background-color: blueviolet;
+            >h2 {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 50px;
+            }
+
+            >a {
+                color: red;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-bottom: 2px solid rgb(255, 0, 0);
+
+                &:hover {
+                    background-color: black;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+
+    }
+
+    >div:nth-of-type(1) {
+        // background-color: aqua;
+        margin: 0;
+        padding: 0;
+
+        >figure {
+            margin: 0;
+
+            >img {
+
+                object-fit: cover;
+
+
+
+            }
+
+        }
+    }
 }

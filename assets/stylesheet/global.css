@@ -1,4 +1,7 @@
 .Topheader {
+  width: 100%;
+  top: 0;
+  z-index: 999;
   height: 80px;
 }
 .Topheader > .row {
@@ -6,9 +9,6 @@
 }
 .Topheader > .row > * {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .Topheader > .row > nav > span > i {
   display: flex;
@@ -17,5 +17,306 @@
   color: white;
 }
 .Topheader .menuHam {
+  display: flex;
+  justify-content: center;
   cursor: pointer;
+}
+.Topheader .DeskMenu > ul > li a {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.Topheader .DeskMenu > ul > li a:hover {
+  color: red;
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+}
+.slider .carousel-item {
+  position: relative;
+}
+.slider .caption > h5 {
+  font-size: 5rem;
+  top: 20%;
+}
+.slider .caption > p {
+  font-size: 2rem;
+  top: 50%;
+}
+.slider .caption * {
+  position: absolute;
+  left: 10%;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px rgb(0, 0, 0) w;
+}
+
+#slideCar {
+  position: relative;
+}
+
+.slideCar {
+  width: 120%;
+  margin-left: -10%;
+}
+.slideCar > .row > figure > img {
+  margin-top: 80px;
+}
+.slideCar::after {
+  left: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.885), rgba(255, 255, 255, 0));
+}
+.slideCar::before {
+  right: 0;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.885), rgba(255, 255, 255, 0));
+  z-index: 99;
+}
+.slideCar::before, .slideCar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+}
+.slideCar figure {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.slideCar figure:nth-of-type(1)::before {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 100%;
+  background-image: url(../img/111\ \(6\).jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.slideCar figure:nth-of-type(1):hover::before {
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+}
+.slideCar figure:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 100%;
+  background-image: url(../img/111\ \(6\).jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.slideCar figure:nth-of-type(2):hover::before {
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+}
+.slideCar figure:nth-of-type(3)::before {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 100%;
+  background-image: url(../img/111\ \(11\).jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.slideCar figure:nth-of-type(3):hover::before {
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+}
+.slideCar figure:nth-of-type(4)::before {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 100%;
+  background-image: url(../img/111\ \(8\).jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.slideCar figure:nth-of-type(4):hover::before {
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+}
+.slideCar figure:nth-of-type(5)::before {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 100%;
+  background-image: url(../img/111\ \(9\).jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 100%);
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.slideCar figure:nth-of-type(5):hover::before {
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+}
+.slideCar figure:hover > * {
+  color: white;
+}
+.slideCar figure > h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.txt a {
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.ClickShop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ClickShop > div:nth-of-type(1) > figure {
+  overflow-x: hidden;
+}
+.ClickShop > div:nth-of-type(1) > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 5s;
+}
+.ClickShop > div:nth-of-type(1) > figure > img:hover {
+  transform: scale(1.08);
+}
+.ClickShop > div:nth-of-type(2) div {
+  padding-left: 10px;
+}
+.ClickShop > div:nth-of-type(2) div > h6 {
+  color: rgb(125, 121, 121);
+}
+.ClickShop > div:nth-of-type(2) div > h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ClickShop > div:nth-of-type(2) div > p {
+  font-size: 20px;
+}
+.ClickShop > div:nth-of-type(2) div > a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+.ClickShop > div:nth-of-type(2) div > a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.pic1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.pic1 > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pic1 > div:nth-of-type(1) > div > h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+.pic1 > div:nth-of-type(1) > div > a {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+.pic1 > div:nth-of-type(1) > div > a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.pic1 > div:nth-of-type(2) {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+.pic1 > div:nth-of-type(2) > figure {
+  margin: 0;
+}
+.pic1 > div:nth-of-type(2) > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pic2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.pic2 > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pic2 > div:nth-of-type(2) > div {
+  margin: 0%;
+}
+.pic2 > div:nth-of-type(2) > div > h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+.pic2 > div:nth-of-type(2) > div > a {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+.pic2 > div:nth-of-type(2) > div > a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.pic2 > div:nth-of-type(1) {
+  margin: 0;
+  padding: 0;
+}
+.pic2 > div:nth-of-type(1) > figure {
+  margin: 0;
+}
+.pic2 > div:nth-of-type(1) > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=global.css.map */

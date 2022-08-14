@@ -1,17 +1,28 @@
 @media screen and (max-width:576px){
-
+.slider .caption > h5{
+    top:15%;
+font-size: 4rem;
+}
 }
 /* end sm mobile */
 @media screen and (min-width:577px){
-
+.slider .caption > h5{
+    top:15% ;
+    font-size: 4rem;
+}
 }
 /* end big mobile */
 @media screen and (min-width:768px){
-
+.slider .caption > h5{
+    top: 15%;
+    font-size: 4rem;
+}
 }
 /* end tablet */
 @media screen and (min-width:992px){
-
+.slider .caption > h5{
+    top: 25%;
+}
 }
 /* end desktop */
 @media screen and (min-width:1200px){
