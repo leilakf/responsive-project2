@@ -3,6 +3,12 @@
     top:15%;
 font-size: 4rem;
 }
+.sell > div > a{
+    font-size: 18px;
+}
+.sell > div > a i{
+    font-size: 20px;
+}
 }
 /* end sm mobile */
 @media screen and (min-width:577px){
@@ -17,12 +23,41 @@ font-size: 4rem;
     top: 15%;
     font-size: 4rem;
 }
+ .pic3 > div>p,
+ .pic4 > div>p,
+ .pic5 > div>p
+ {
+    font-size: 20px;
+} 
+
+.sell > div > a i{
+    font-size: 30px;
+}
+
+
 }
 /* end tablet */
 @media screen and (min-width:992px){
 .slider .caption > h5{
     top: 25%;
 }
+.pic3 > figure img,
+.pic4 > figure img,
+.pic5 > figure img 
+{
+    width: 80%;
+}
+.pic3 > figure::after,
+.pic4 > figure::after,
+.pic5 > figure::after {
+     width: 80%;
+}
+ .pic3 > div>p,
+ .pic4 > div>p,
+  .pic5 > div>p
+ {
+    font-size: 25px;
+} 
 }
 /* end desktop */
 @media screen and (min-width:1200px){

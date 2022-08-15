@@ -1,8 +1,7 @@
-
 .Topheader {
     // padding: 0px;
-//    margin: 0;
-   width: 100%;
+    //    margin: 0;
+    width: 100%;
     // position: fixed;
     top: 0;
     z-index: 999;
@@ -291,6 +290,9 @@
         font-size: 20px;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-weight: bold;
+        &:hover{
+            color: red;
+        }
     }
 
 }
@@ -363,16 +365,16 @@
 // <!-- ******************************************end ClickShop************/ -->
 .pic1 {
     width: 100%;
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
     // height: 100vh;
     background-color: black;
 
     >div:nth-of-type(1) {
         display: flex;
         align-items: center;
-         margin: 0;
-         padding: 0;
+        margin: 0;
+        padding: 0;
 
 
         >div {
@@ -401,32 +403,55 @@ margin: 0;
     }
 
     >div:nth-of-type(2) {
-        background-color: aqua;
+        // background-color: aqua;
         margin: 0;
         padding: 0;
 
+
         >figure {
             margin: 0;
+            position: relative;
+
 
             >img {
-
                 object-fit: cover;
-
-
+                // visibility: hidden;
+                filter: hue-rotate(180deg);
 
             }
 
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-image: url(../img/c2.jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%, 0 100%);
+                position: absolute;
+                top: 0;
+                left: 0;
+                // border: 2px solid red;
+                transition: 1s;
+            }
+
+            &:hover::after {
+                clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%, 0 0);
+
+            }
         }
     }
 }
+
 // <!-- ******************************************end pic1************/ -->
 .pic2 {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: black;
 
     // height: 100vh;
-    background-color: black;
+    // background-color: black;
 
     >div:nth-of-type(2) {
         // background-color: rgb(255, 204, 0);
@@ -436,7 +461,8 @@ margin: 0;
         padding: 0;
 
         >div {
-margin: 0%;
+            margin: 0%;
+
             // background-color: blueviolet;
             >h2 {
                 text-transform: uppercase;
@@ -467,11 +493,360 @@ margin: 0%;
 
         >figure {
             margin: 0;
+            position: relative;
 
             >img {
-
                 object-fit: cover;
+                // visibility: hidden;
+                filter: invert(80%);
+            }
 
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                // background-color: chartreuse;
+                background-image: url(../img/c3.jpg);
+                background-size: cover;
+                clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%, 0 100%);
+                position: absolute;
+                top: 0;
+                left: 0;
+                // border: 2px solid red;
+                transition: 1s;
+            }
+
+            &:hover::after {
+                clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%, 0 0);
+                ;
+            }
+        }
+    }
+}
+
+//  ******************************************end pic2************
+.pic3 {
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+    >div {
+        padding: 90px;
+
+        >p {
+            text-transform: lowercase;
+            color: rgb(64, 62, 62);
+            font-weight: 400;
+            font-size: 25px;
+        }
+
+        >h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+    >figure {
+        position: relative;
+
+
+
+        img {
+            object-fit: cover;
+            border: 2px solid rgb(111, 109, 109);
+            filter: invert(80%);
+
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            // background-color: chartreuse;
+            background-image: url(../img/111\ \(6\).png);
+            background-size: cover;
+            clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            // border: 2px solid red;
+            transition: 1s;
+        }
+
+        &:hover::after {
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%, 0 0);
+
+        }
+
+
+    }
+
+}
+
+//  ******************************************end pic3************
+.pic4 {
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+    >div {
+        padding: 90px;
+
+        >p {
+            text-transform: lowercase;
+            color: rgb(64, 62, 62);
+            font-weight: 400;
+            font-size: 25px;
+        }
+
+        >h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        >a {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    >figure {
+        position: relative;
+        display: flex;
+        justify-content: end;
+
+
+
+
+        img {
+            object-fit: cover;
+            border: 2px solid rgb(111, 109, 109);
+            filter: invert(80%);
+
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 90%;
+            height: 100%;
+            background-color: chartreuse;
+            background-image: url(../img/c4.jpg);
+            background-size: cover;
+            clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+            position: absolute;
+            top: 0px;
+            right: -10px;
+            // border: 2px solid red;
+            transition: 1s;
+
+        }
+
+        &:hover::after {
+            clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+
+        }
+
+
+    }
+
+}
+
+//  ******************************************end pic4************
+.txt1 {
+    width: 100%;
+    // height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >div {
+
+        >.btn {
+            display: flex;
+            justify-content: center;
+
+            >h2 {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            >p {
+                font-size: 24px;
+            }
+
+            >a {
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+
+    }
+}
+
+//  ******************************************end txt1************
+.pic5 {
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+    >div {
+        padding: 90px;
+
+        >p {
+            text-transform: lowercase;
+            color: rgb(64, 62, 62);
+            font-weight: 400;
+            font-size: 25px;
+        }
+
+        >h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        >a {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    >figure {
+        position: relative;
+
+
+
+        img {
+            object-fit: cover;
+            border: 2px solid rgb(111, 109, 109);
+            filter: invert(80%);
+
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            // background-color: chartreuse;
+            background-image: url(../img/c5.jpg);
+            background-size: cover;
+            clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            // border: 2px solid red;
+            transition: 1s;
+        }
+
+        &:hover::after {
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%, 0 0);
+
+        }
+
+
+    }
+
+}
+
+//  ******************************************end pic5************
+.button {
+    background-color: black;
+
+    >div:nth-of-type(2) {
+        >label {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        >input {
+            border-bottom: 5px solid rgb(255, 0, 0);
+
+            text-transform: uppercase;
+        }
+
+        >button {
+            border-bottom: 5px solid rgb(255, 0, 0);
+            font-size: 18px;
+            text-transform: uppercase;
+            background-color: rgb(251, 251, 251);
+
+            &:hover {
+                background-color: rgb(6, 6, 6);
+                color: rgb(255, 255, 255);
+                border: 2px solid whitesmoke;
+            }
+        }
+
+    }
+
+}
+
+
+//  ******************************************end button***********
+.sell {
+    >div {
+
+        >a {
+            i {
+                color: rgb(60, 59, 59);
+
+                &:hover {
+                    color: red;
+                  
+                  
+
+                }
+            }
+
+            &:hover {
+                color: red;
+
+            }
+        }
+
+
+    }
+}
+
+// ******************************end sell******************************************
+.footer1 {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.in-foot {
+    >ul {
+        >li {
+            >a {
+                text-transform: uppercase;
+                color: rgb(192, 189, 189);
+
+                &:hover {
+
+                    color: red
+                }
 
 
             }
@@ -479,3 +854,34 @@ margin: 0%;
         }
     }
 }
+
+
+// *********************************end footer1*******************************
+
+.footer2 {
+    background-color: black;
+
+    >div {
+        >span {
+            >a {
+
+                // border: 1px solid red;
+
+                &:hover >i {
+                    color: red;
+                    font-size:35px ;
+                }
+
+                >i {
+                    color: rgb(255, 255, 254);
+                    font-size: 30px;
+                      transition: 1s;
+                }
+            }
+
+        }
+    }
+
+}
+
+// *********************************end footer2*******************************
